@@ -1,0 +1,29 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  font-size: 12px;
+  
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 10px;
+}
+
+.tdHeader {
+  border-bottom: 2px solid black;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  background-color: cornflowerblue;
+}
+

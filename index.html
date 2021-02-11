@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Survey</title>
+
+  <style>
+    html {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    .topbar {
+      background-color: #047;
+      height: 60px;
+      color: #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .bodyFrame {
+      width: 100%;
+      max-width: 800px;
+      height: calc(100% - 60px);
+      margin: auto;
+      background-color: rgba(0, 40, 70, 0.5);
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 100px;
+      box-sizing: border-box;
+    }
+
+    .loginButton {
+      width: 300px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      color: #047;
+      text-decoration: none;
+      background-color: #eee;
+      font-size: medium;
+      font-weight: 700;
+    }
+
+    a:hover {
+      color: #eee;
+      background-color: #047;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <h1>Medical Survey</h1>
+  </div>
+  <div class="bodyFrame">
+    <div class="loginButton"><a href="login_as_doctor.html">Είσοδος Ιατρού</a></div>
+    <div class="loginButton"><a href="login_as_patient.html">Είσοδος Θεραπευόμενου</a></div>
+  </div>
+</body>
+</html>
